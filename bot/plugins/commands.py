@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/TAMILBLASTERSLIVE"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/TAMILBLASTERSLIVE"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/TAMILBLASTERSLIVE"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/joinchat/TRlZZilyh-MVa66t'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/joinchat/YS-WlsUC9nFiOWM0')
+        InlineKeyboardButton('Developers', url='https://t.me/TRVPN'),
+        InlineKeyboardButton('TAMILBLASTERS_OFF', url ='https://t.me/TAMILBLASTERS_CC')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/YS-WlsUC9nFiOWM0')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/TAMILBLASTERSLIVE')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
