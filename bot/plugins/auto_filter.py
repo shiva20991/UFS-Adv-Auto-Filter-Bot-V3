@@ -137,8 +137,8 @@ async def auto_filter(bot, update):
     else:
         Send_message=await bot.send_video(
                 chat_id = update.chat.id,
-                video="https://telegra.ph/file/3e9f7db0c98e6b236c2c7.mp4",
-                caption=f"Couldn't Find This Movie.Please Try Again Or Search On Our <b><a href='https://t.me/TRVPN'>Channel</a></b>.",
+                video=file_id,
+                caption=f"{file_name} + Couldn't Find This Movie.Please Try Again Or Search On Our <b><a href='https://t.me/TRVPN'>Channel</a></b>.",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
@@ -219,7 +219,7 @@ async def auto_filter(bot, update):
         ibuttonss = []
         ibuttonss.append(
                         [
-                            InlineKeyboardButton("⭕️<b>TAMILBLASTERS,/b>⭕️", url="https://t.me/TAMILROCKERSVPN")
+                            InlineKeyboardButton("⭕️<b>TAMILBLASTERS</b>⭕️", url="https://t.me/TAMILROCKERSVPN")
                         ]
                     )
         for x in ibuttonss:
