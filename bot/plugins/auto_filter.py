@@ -219,7 +219,7 @@ async def auto_filter(bot, update):
         ibuttonss = []
         ibuttonss.append(
                         [
-                            InlineKeyboardButton("⭕️TAMILBLASTERS⭕️", url="https://t.me/TAMILROCKERSVPN")
+                            InlineKeyboardButton("⭕️<b>TAMILBLASTERS,/b>⭕️", url="https://t.me/TAMILROCKERSVPN")
                         ]
                     )
         for x in ibuttonss:
@@ -230,7 +230,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"We Found <code><b><i>{(len_results)}</i></b></code> Results For Your Query: <code><b><i>{query}</i></b></code>, Requested By <b><code>{update.from_user.{}}</code></b>",
+                text=f"We <b>Found</b> <code><b><i>{(len_results)}</i></b></code> <b>HERE IS REQUESTED MOVIE NANBA</b>: <code><b><i>{query}</i></b></code>, Requested By <b><code></code></b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
