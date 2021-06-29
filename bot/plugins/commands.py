@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption + \n<b>"POWERED BY : @TAMILBLASTERS_CC + \n JOIN : @TRVPN "</b>,
+                caption = caption + "POWERED BY : @TAMILBLASTERS_CC  \n JOIN : @TRVPN ",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
