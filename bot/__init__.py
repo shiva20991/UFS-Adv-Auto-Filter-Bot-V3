@@ -9,6 +9,7 @@ import time
 from logging.handlers import RotatingFileHandler
 
 from .translation import Translation
+FORCESUB_CHANNEL = os.environ.get("FORCESUB_CHANNEL", "")
 
 # Change Accordingly While Deploying To A VPS
 APP_ID = int(os.environ.get("APP_ID"))
