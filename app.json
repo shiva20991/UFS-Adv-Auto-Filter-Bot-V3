@@ -19,6 +19,11 @@
             "description": "Your API Hash From my.telegram.org or @UseTGXBot",
             "value": ""
         },
+"FORCESUB_CHANNEL": {
+            "description": "For Force Subscribe. Paste your forcesubscribe channel USERNAME (without @)..",
+            "value": "",
+            "required": false
+        },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
