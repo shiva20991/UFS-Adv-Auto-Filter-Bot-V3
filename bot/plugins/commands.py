@@ -25,7 +25,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="<b>🤭 JOIN OUR UPDATES CHANNEL TO USE ME OTHER WISE NO USE OF ME FOR YOU 😒</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🤭JOIN OUR CHANNEL🤭 ", url=f"https://t.me/tamilrockersvpn1")]
+                    [ InlineKeyboardButton(text=" 🤭JOIN OUR CHANNEL🤭 ", url=f"https://t.me/tamILBLASTERS_WIN")]
               ])
             )
             return
@@ -51,7 +51,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption + "\n🟡POWERED BY : @TAMILBLASTERS_CC\n🧲JOIN : @TRVPN ",
+                caption = caption + "\nPOWERED BY @Tamilblasters_Win" +"\nJOIN US : https://t.me/+1oRgqJt3obc1MzI1",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -59,7 +59,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/TAMILBLASTERSLIVE"
+                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/Trvpnresponsebot"
                                 )
                         ]
                     ]
@@ -71,14 +71,15 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = caption + "\nPOWERED BY @Tamilblasters_Win" +"\nJOIN US : https://t.me/+1oRgqJt3obc1MzI1",
+           
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/TAMILBLASTERSLIVE"
+                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/Trvpnresponsebot"
                                 )
                         ]
                     ]
@@ -90,14 +91,14 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = caption,
+                caption = caption + "\nPOWERED BY @Tamilblasters_Win" +"\nJOIN US : https://t.me/+1oRgqJt3obc1MzI1",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/TAMILBLASTERSLIVE"
+                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/Trvpnresponsebot"
                                 )
                         ]
                     ]
@@ -111,9 +112,9 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/TRVPN'),
-        InlineKeyboardButton('TAMILBLASTERS_OFF', url ='https://t.me/TAMILBLASTERS_CC')
+        InlineKeyboardButton('TAMILBLASTERS_OFF', url ='https://t.me/TAMILBLASTERS_win')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/TAMILBLASTERSLIVE')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/TAMILBLASTERS_win')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
