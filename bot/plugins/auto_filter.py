@@ -219,7 +219,7 @@ async def auto_filter(bot, update):
         ibuttonss = []
         ibuttonss.append(
                         [
-                            InlineKeyboardButton("⭕️<b>TAMILBLASTERS</b>⭕️", url="https://t.me/TAMILROCKERSVPN")
+                            InlineKeyboardButton("⭕️<b>TAMILBLASTERS_win</b>⭕️", url="https://t.me/TAmilblasters_win")
                         ]
                     )
         for x in ibuttonss:
@@ -230,7 +230,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"We <b>Found</b> <code><b><i>{(len_results)}</i></b></code> <b>HERE IS REQUESTED MOVIE NANBA</b>: <code><b><i>{query}</i></b></code>, Requested By <b><code></code></b>",
+                text=f"We <b>Found</b> <code><b><i>{(len_results)}</i></b></code> <b>HERE IS REQUESTED MOVIE NANBA</b>: <code><b><i>{query}</i></b></code>, Requested By <b><code></code></b>,Any Issues : @trvpnresponsebot",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
