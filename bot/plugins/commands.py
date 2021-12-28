@@ -51,7 +51,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption + "\n\n\n<b>POWERED BY @Tamilblasters_Win<\b>" +"\n\n\n<b>JOIN US : https://t.me/+1oRgqJt3obc1MzI1<\b>",
+                caption = caption + "\n\n\n**POWERED BY @Tamilblasters_Win**" +"\n\n\n<b>JOIN US : https://t.me/+1oRgqJt3obc1MzI1<\b>",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
